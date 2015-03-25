@@ -1,0 +1,47 @@
+/*---------------------------------------------------------------------------------------
+ Theme Name:   Killer B Creative
+ Theme URI:    http://killer-b.com/
+ Description:  Custom theme for Killer B Creative, based on the Bluu theme
+ Author:       Matt Lee
+ Author URI:   http://matthewleedesign.com
+ Template:     bluu
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         portfolio, responsive-layout
+ Text Domain:  bluu-child
+---------------------------------------------------------------------------------------*/
+
+
+
+::selection {
+  background: #b5c139; 
+  /* color: white; */
+}
+
+::-moz-selection { /* Firefox */
+  background: #b5c139; 
+  /* color: white; */
+}
+
+img {
+	width: 100%;
+	max-width: none;
+}
+
+.site-branding img {
+	max-width: 350px;
+}
+
+.big-thumb-cta a {
+	background: #ff1d4d;
+}
+
+/* Image Hovers */
+.portfolio-thumb-overlay {
+	background: #ff1d4d;
+}
+
+#sort-by li a.active {
+	background: #ff1d4d;
+}

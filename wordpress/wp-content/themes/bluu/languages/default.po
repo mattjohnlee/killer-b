@@ -1,0 +1,488 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bluu\n"
+"POT-Creation-Date: 2014-05-03 15:40-0000\n"
+"PO-Revision-Date: 2014-05-03 15:41-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../404.php:21
+msgid "It looks like nothing was found at this location."
+msgstr ""
+
+#: ../archive.php:21
+msgid "Category: "
+msgstr ""
+
+#: ../archive.php:24
+msgid "Tag: "
+msgstr ""
+
+#: ../archive.php:31
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: ../archive.php:39
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: ../archive.php:42
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: ../archive.php:45
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: ../archive.php:48
+msgid "Asides"
+msgstr ""
+
+#: ../archive.php:51
+msgid "Images"
+msgstr ""
+
+#: ../archive.php:54
+msgid "Videos"
+msgstr ""
+
+#: ../archive.php:57
+msgid "Quotes"
+msgstr ""
+
+#: ../archive.php:60
+msgid "Links"
+msgstr ""
+
+#: ../archive.php:63
+msgid "Archives"
+msgstr ""
+
+#: ../comments.php:36 ../comments.php:55
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:37 ../comments.php:56
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:66
+msgid "Comments are closed."
+msgstr ""
+
+#: ../content-fullwidth.php:32 ../content-video.php:32 ../content.php:32
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../content-fullwidth.php:35 ../content-page.php:19 ../content-single.php:55
+#: ../content-video.php:35 ../content.php:35 ../image.php:60
+msgid "Pages:"
+msgstr ""
+
+#: ../customizer.php:12
+msgid "General Options"
+msgstr ""
+
+#: ../customizer.php:21
+msgid "Logo Upload"
+msgstr ""
+
+#: ../customizer.php:33
+msgid "Logo Top Padding"
+msgstr ""
+
+#: ../customizer.php:44
+msgid "Favicon Upload"
+msgstr ""
+
+#: ../customizer.php:73
+msgid "Homepage Pitch"
+msgstr ""
+
+#: ../customizer.php:85
+msgid "Portfolio Page URL"
+msgstr ""
+
+#: ../customizer.php:97
+msgid "Primary Color"
+msgstr ""
+
+#: ../footer.php:41
+msgid "Powered by"
+msgstr ""
+
+#: ../functions.php:63
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:64
+msgid "Top Menu"
+msgstr ""
+
+#: ../functions.php:91
+msgid "Sidebar"
+msgstr ""
+
+#: ../functions.php:100
+msgid "Pages Sidebar"
+msgstr ""
+
+#: ../functions.php:109
+msgid "Header Widget"
+msgstr ""
+
+#: ../functions.php:118
+msgid "Footer 1"
+msgstr ""
+
+#: ../functions.php:127
+msgid "Footer 2"
+msgstr ""
+
+#: ../functions.php:136
+msgid "Footer 3"
+msgstr ""
+
+#: ../functions.php:145
+msgid "Footer 4"
+msgstr ""
+
+#: ../functions.php:291
+#, php-format
+msgid "View all posts filed under %s"
+msgstr ""
+
+#: ../functions.php:306
+#, php-format
+msgid "Feed for all posts filed under %s"
+msgstr ""
+
+#: ../image.php:23
+#, php-format
+msgid ""
+"Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size "
+"image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" "
+"rel=\"gallery\">%8$s</a>"
+msgstr ""
+
+#: ../image.php:34 ../image.php:78
+msgid "Edit"
+msgstr ""
+
+#: ../image.php:39
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: ../image.php:40
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../image.php:69
+#, php-format
+msgid ""
+"<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a "
+"comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" "
+"title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+
+#: ../image.php:71
+#, php-format
+msgid ""
+"Comments are closed, but you can leave a trackback: <a class=\"trackback-link"
+"\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback"
+"\">Trackback URL</a>."
+msgstr ""
+
+#: ../image.php:73
+msgid ""
+"Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond"
+"\" title=\"Post a comment\">post a comment</a>."
+msgstr ""
+
+#: ../image.php:75
+msgid "Both comments and trackbacks are currently closed."
+msgstr ""
+
+#: ../no-results.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: ../no-results.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../no-results.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../no-results.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../single-portfolio-items.php:11 ../single-portfolio-items.php:15
+msgid "%title"
+msgstr ""
+
+#: ../single-portfolio-items.php:13
+msgid "All Projects"
+msgstr ""
+
+#: ../single.php:19
+msgid "Share this post &rarr;"
+msgstr ""
+
+#: ../single.php:25 ../inc/project-details.php:43
+msgid "Facebook"
+msgstr ""
+
+#: ../single.php:31 ../inc/project-details.php:49
+msgid "Twitter"
+msgstr ""
+
+#: ../single.php:37 ../inc/project-details.php:55
+msgid "GooglePlus"
+msgstr ""
+
+#: ../taxonomy-portfolio_types.php:14
+msgid "All projects in "
+msgstr ""
+
+#: ../taxonomy-portfolio_types.php:39 ../template-home-parallax-four.php:66
+#: ../template-home-parallax-three.php:66 ../template-home-parallax-two.php:66
+#: ../template-portfolio-five.php:49 ../template-portfolio-four.php:49
+#: ../template-portfolio-full-five.php:55
+#: ../template-portfolio-full-four.php:55
+#: ../template-portfolio-full-three.php:55 ../template-portfolio-three.php:49
+msgid "View Project"
+msgstr ""
+
+#: ../template-portfolio-five.php:13 ../template-portfolio-four.php:13
+#: ../template-portfolio-full-five.php:17
+#: ../template-portfolio-full-four.php:17
+#: ../template-portfolio-full-three.php:17 ../template-portfolio-three.php:13
+msgid "All"
+msgstr ""
+
+#: ../inc/extras.php:70
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../inc/project-details.php:17
+msgid "Client: "
+msgstr ""
+
+#: ../inc/project-details.php:20
+msgid "Date: "
+msgstr ""
+
+#: ../inc/project-details.php:35
+msgid "View Project &rarr;"
+msgstr ""
+
+#: ../inc/template-tags.php:43
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: ../inc/template-tags.php:47
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../inc/template-tags.php:80
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../inc/template-tags.php:80
+msgid "Reply"
+msgstr ""
+
+#: ../inc/template-tags.php:85
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../inc/widgets/widget-contact.php:16
+msgid "Display contact info"
+msgstr ""
+
+#: ../inc/widgets/widget-contact.php:23
+msgid "Bluu: Contact Info"
+msgstr ""
+
+#: ../inc/widgets/widget-contact.php:83
+msgid "Tel:"
+msgstr ""
+
+#: ../inc/widgets/widget-contact.php:87 ../inc/widgets/widget-contact.php:159
+msgid "Mobile:"
+msgstr ""
+
+#: ../inc/widgets/widget-contact.php:91 ../inc/widgets/widget-contact.php:164
+msgid "Fax:"
+msgstr ""
+
+#: ../inc/widgets/widget-contact.php:95 ../inc/widgets/widget-contact.php:169
+msgid "Email:"
+msgstr ""
+
+#: ../inc/widgets/widget-contact.php:99
+msgid "Web:"
+msgstr ""
+
+#: ../inc/widgets/widget-contact.php:144
+#: ../inc/widgets/widget-dribbble.php:136
+#: ../inc/widgets/widget-facebook.php:137 ../inc/widgets/widget-flickr.php:150
+#: ../inc/widgets/widget-tweets.php:230
+msgid "Title:"
+msgstr ""
+
+#: ../inc/widgets/widget-contact.php:149
+msgid "Address:"
+msgstr ""
+
+#: ../inc/widgets/widget-contact.php:154
+msgid "Phone:"
+msgstr ""
+
+#: ../inc/widgets/widget-contact.php:174
+msgid "Web (with HTTP):"
+msgstr ""
+
+#: ../inc/widgets/widget-contact.php:179
+msgid "Web (plain text):"
+msgstr ""
+
+#: ../inc/widgets/widget-dribbble.php:16
+msgid "Display your recent portfolio posts"
+msgstr ""
+
+#: ../inc/widgets/widget-dribbble.php:23
+msgid "Bluu: Dribbble Shots"
+msgstr ""
+
+#: ../inc/widgets/widget-dribbble.php:141
+msgid "Dribbble Username:"
+msgstr ""
+
+#: ../inc/widgets/widget-dribbble.php:146
+msgid "Shot Count:"
+msgstr ""
+
+#: ../inc/widgets/widget-facebook.php:16
+msgid "Display your Facebook Like box."
+msgstr ""
+
+#: ../inc/widgets/widget-facebook.php:23
+msgid "Bluu: Facebook Like"
+msgstr ""
+
+#: ../inc/widgets/widget-facebook.php:142
+msgid "Facebook Page URL:"
+msgstr ""
+
+#: ../inc/widgets/widget-facebook.php:147
+msgid "Width:"
+msgstr ""
+
+#: ../inc/widgets/widget-facebook.php:152
+msgid "Color Scheme:"
+msgstr ""
+
+#: ../inc/widgets/widget-facebook.php:161
+msgid "Show Faces"
+msgstr ""
+
+#: ../inc/widgets/widget-facebook.php:166
+msgid "Show Stream"
+msgstr ""
+
+#: ../inc/widgets/widget-facebook.php:171
+msgid "Show Facebook Header"
+msgstr ""
+
+#: ../inc/widgets/widget-flickr.php:16
+msgid "Display your recent Flickr photos."
+msgstr ""
+
+#: ../inc/widgets/widget-flickr.php:23
+msgid "Bluu: Flickr Photos"
+msgstr ""
+
+#: ../inc/widgets/widget-flickr.php:155
+msgid "Flickr ID:"
+msgstr ""
+
+#: ../inc/widgets/widget-flickr.php:155
+msgid "Get your flickr ID"
+msgstr ""
+
+#: ../inc/widgets/widget-flickr.php:160
+msgid "Photo Count:"
+msgstr ""
+
+#: ../inc/widgets/widget-flickr.php:165
+msgid "API Key:"
+msgstr ""
+
+#: ../inc/widgets/widget-flickr.php:165
+msgid "Find your key"
+msgstr ""
+
+#: ../inc/widgets/widget-tweets.php:16
+msgid "Display your recent tweets."
+msgstr ""
+
+#: ../inc/widgets/widget-tweets.php:23
+msgid "Bluu: Tweets"
+msgstr ""
+
+#: ../inc/widgets/widget-tweets.php:235
+msgid "Consumer Key:"
+msgstr ""
+
+#: ../inc/widgets/widget-tweets.php:240
+msgid "Consumer Secret:"
+msgstr ""
+
+#: ../inc/widgets/widget-tweets.php:245
+msgid "Access Token:"
+msgstr ""
+
+#: ../inc/widgets/widget-tweets.php:250
+msgid "Access Token Secret:"
+msgstr ""
+
+#: ../inc/widgets/widget-tweets.php:255
+msgid "Twitter ID:"
+msgstr ""
+
+#: ../inc/widgets/widget-tweets.php:260
+msgid "Tweet Count:"
+msgstr ""

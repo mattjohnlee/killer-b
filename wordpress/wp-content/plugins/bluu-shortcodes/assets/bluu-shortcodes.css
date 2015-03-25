@@ -1,0 +1,222 @@
+/**
+ * Shortcode CSS
+ */
+
+
+/*--------------------------------------------------*/
+/* FontAwesome Icons
+/*--------------------------------------------------*/
+
+/* All */
+.single-icon {
+	padding: 3px;
+}
+.icon-with-heading p,
+.icon-with-text span {
+	color: #6c6c6c;
+	font-family: 'source_sans_proregular', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+.icon-with-text span {
+	padding: 0 0 0 10px;
+}
+.icon-with-heading h3 {
+	font-family: 'museo_slab500', sans-serif;
+	color: #232323;
+	padding: 0 0 0 12px;
+	font-size: 20px;
+}
+.icon-with-heading p {
+	margin-top: 6px;
+	margin-bottom: 0px;
+}
+
+/* Colors */
+.icon-color-dark {
+	color: #151617;
+}
+.icon-color-light {
+	color: #fff;
+}
+
+/* Sizes */
+.icon-size-small {
+	font-size: 14px;
+}
+.icon-size-medium {
+	font-size: 22px;
+	line-height: 32px;
+}
+.icon-size-large {
+	font-size: 32px;
+}
+.icon-size-large h3 {
+	position: relative;
+	bottom: 5px;
+}
+
+
+/*--------------------------------------------------*/
+/* Columns
+/*--------------------------------------------------*/
+
+/* Margins */
+/* 30px / 1100px = 2.72727272727273% */
+
+.bluu-column {
+	float: left;
+	margin-right: 2.72727272727273%;
+	margin-bottom: 30px;
+}
+
+/* Remove margins from last-child columns */
+.bluu-columns-half .bluu-column-half:nth-child(2n),
+.bluu-columns-thirds .bluu-column-third:nth-child(3n),
+.bluu-columns-quarters .bluu-column-fourth:nth-child(4n),
+.bluu-columns-fifths .bluu-column-fifth:nth-child(5n) {
+	margin-right: 0;
+}
+
+/* Half */
+.bluu-column-half {
+	width: 48.63636363636364%;
+}
+/* Thirds */
+.bluu-column-third {
+	width: 31.51515151515152%;
+}
+/* Fourths */
+.bluu-column-fourth {
+	width: 22.95454545454545%;
+}
+/* Fifths */
+.bluu-column-fifth {
+	width: 17.81818181818182%;
+}
+
+
+/*--------------------------------------------------*/
+/* Buttons
+/*--------------------------------------------------*/
+
+a.bluu-button {
+	display: inline-block;
+	border-radius: 3px;
+	padding: 7px 15px;
+	color: #fff !important;
+	border: 0 !important;
+	transition: all 0.3s ease 0s;
+}
+
+a.bluu-button:hover {
+	background: #2f3031;
+	color: #fff;
+}
+
+a.bluu-button.button-color-dark {
+	color: #fff;
+	background: #2f3031;
+}
+a.bluu-button.button-color-dark:hover {
+	background: #000;
+}
+
+a.bluu-button.button-color-light {
+	color: #4c4e50 !important;
+	background: #fff;
+	box-shadow: 0px 1px 1px #d4d5d6;
+}
+a.bluu-button.button-color-light:hover {
+	color: #fff !important;
+	background: #2f3031;
+}
+
+a.bluu-button.button-size-small {
+	padding: 4px 12px;
+	font-size: 12px;
+}
+a.bluu-button.button-size-large {
+	padding: 10px 20px;
+	font-size: 16px;
+}
+
+
+/*--------------------------------------------------*/
+/* Spacing
+/*--------------------------------------------------*/
+
+.spacing-fifty {
+	height: 50px;
+}
+.spacing-fourty {
+	height: 40px;
+}
+.spacing-thirty {
+	height: 30px;
+}
+.spacing-twenty {
+	height: 20px;
+}
+.spacing-ten {
+	height: 10px;
+}
+
+
+/*--------------------------------------------------*/
+/* Portfolio Loops
+/*--------------------------------------------------*/
+
+.sc-portfolio #portfolio-squares-full-three,
+.sc-portfolio #portfolio-squares-full-four,
+.sc-portfolio #portfolio-squares-full-five {
+	margin-bottom: 0 !important;
+}
+
+
+/*--------------------------------------------------*/
+/* Section Headings
+/*--------------------------------------------------*/
+
+.section-heading {
+	text-align: center;
+}
+
+.section-heading-title {
+	margin: 0 0 10px;
+}
+
+.section-heading-sep {
+	display: inline-block;
+	width: 90px;
+	height: 6px;
+	margin: 0 0 15px;
+}
+
+.section-heading p {
+	margin: 0;
+}
+
+
+/*--------------------------------------------------*/
+/* Media Queries
+/*--------------------------------------------------*/
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 600px) {
+
+	.bluu-column {
+		float: none;
+		margin-right: 0;
+	}
+
+	.bluu-column-half,
+	.bluu-column-third,
+	.bluu-column-fourth,
+	.bluu-column-fifth {
+		width: 100%;
+	}
+
+}

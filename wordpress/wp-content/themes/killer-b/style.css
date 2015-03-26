@@ -13,35 +13,71 @@
 ---------------------------------------------------------------------------------------*/
 
 
-
+/* set custom highlight color */
 ::selection {
   background: #b5c139; 
-  /* color: white; */
 }
 
 ::-moz-selection { /* Firefox */
   background: #b5c139; 
-  /* color: white; */
 }
 
+
+
+/* change theme's handling of responsive image widths */
 img {
 	width: 100%;
 	max-width: none;
 }
 
-.site-branding img {
+.site-branding img { /* cap the width of the main logo */
 	max-width: 350px;
 }
 
-.big-thumb-cta a {
+
+
+/* set the background color when you hover on project links, buttons, etc. */
+.big-thumb-cta a { /* button links on home page */
 	background: #ff1d4d;
 }
 
-/* Image Hovers */
-.portfolio-thumb-overlay {
+.portfolio-thumb-overlay { /* portfolio image Hovers */
 	background: #ff1d4d;
 }
 
-#sort-by li a.active {
+#sort-by li a.active { /* active "sort by" link */
 	background: #ff1d4d;
+}
+
+
+/* customize home page styles for killer-b.com */
+#killerb-home .project-scroll {
+	background: url('../../uploads/2015/03/IMG_0773_crop.jpg') 50% 0 no-repeat fixed;
+	background-size: cover;
+	height: 800px;
+}
+
+.home #header {
+	margin-bottom: 0;
+}
+
+
+/* bottom margin on nav li's was causing a weird gap between borders */
+#responsive-menu .responsive-menu, #responsive-menu div, #responsive-menu .responsive-menu li {
+	margin-bottom: 0 !important;
+}
+
+
+
+/* adjust height and margin of main nav in non-mobile views */
+.main-navigation > ul > li > a {
+	height: auto;
+	line-height: 24px;
+	margin: 70px 0 10px 50px;
+}
+
+
+/* remove the left padding from the contact form */
+.wpcf7 {
+	padding-left: 0 !important;
 }

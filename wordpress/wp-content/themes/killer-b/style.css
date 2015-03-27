@@ -81,3 +81,18 @@ img {
 .wpcf7 {
 	padding-left: 0 !important;
 }
+
+
+/* customize the reponsive menu styles */
+#responsive-menu {
+	padding-top: 40px;
+}
+
+#click-menu {
+	padding: 10px;
+	left: 0;	
+}
+
+#click-menu .threeLines {
+	float: right;
+}

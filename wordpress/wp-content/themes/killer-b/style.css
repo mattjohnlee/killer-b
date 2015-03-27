@@ -31,7 +31,7 @@ img {
 }
 
 .site-branding img { /* width and responsive padding for the main logo */
-	max-width: 350px;
+	width: 275px;
 	padding-top: 40px;
 }
 
@@ -109,7 +109,7 @@ img {
 .main-navigation > ul > li > a {
 	height: auto;
 	line-height: 24px;
-	margin: 70px 0 10px 50px;
+	margin: 55px 0 10px 50px;
 }
 
 

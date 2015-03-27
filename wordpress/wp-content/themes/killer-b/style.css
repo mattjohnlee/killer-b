@@ -44,15 +44,20 @@ img {
 
 /* set the background color when you hover on project links, buttons, etc. */
 .big-thumb-cta a { /* button links on home page */
-	background: #ff1d4d;
+	background: #b5c139;
 }
 
 .portfolio-thumb-overlay { /* portfolio image Hovers */
-	background: #ff1d4d;
+	background: #b5c139;
 }
 
-#sort-by li a.active { /* active "sort by" link */
-	background: #ff1d4d;
+#sort-by li a.active { /* active "sort by" link... */
+	background: #b5c139;
+}
+
+/* ...and the main nav */
+.main-navigation ul li a:hover, .main-navigation ul li.current-menu-item a, .main-navigation ul li.current-menu-parent a {
+	color: #b5c139;
 }
 
 

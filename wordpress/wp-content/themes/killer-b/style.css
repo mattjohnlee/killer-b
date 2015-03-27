@@ -30,10 +30,16 @@ img {
 	max-width: none;
 }
 
-.site-branding img { /* cap the width of the main logo */
+.site-branding img { /* width and responsive padding for the main logo */
 	max-width: 350px;
+	padding-top: 40px;
 }
 
+@media only screen and (min-width: 769px) {
+	.site-branding img {
+		padding-top: 0;
+	}
+}
 
 
 /* set the background color when you hover on project links, buttons, etc. */
@@ -52,10 +58,40 @@ img {
 
 /* customize home page styles for killer-b.com */
 #killerb-home .project-scroll {
-	background: url('../../uploads/2015/03/IMG_0773_crop.jpg') 50% 0 no-repeat fixed;
-	background-size: cover;
-	height: 800px;
+	background: url('../../uploads/2015/03/IMG_0773_crop-740x390.jpg') 50% 0 no-repeat;
+	height: 350px;
 }
+
+@media only screen and (min-width: 600px) {
+	#killerb-home .project-scroll {
+		background: url('../../uploads/2015/03/IMG_0773_crop-800x550.jpg') 50% 0 no-repeat;
+		height: 500px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	#killerb-home .project-scroll {
+		background: url('../../uploads/2015/03/IMG_0773_crop-1100x640.jpg') 50% 0 no-repeat;
+		height: 600px;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	#killerb-home .project-scroll {
+		background: url('../../uploads/2015/03/IMG_0773_crop-1100x640.jpg') 50% 0 no-repeat fixed;
+		background-size: cover;
+		height: 600px;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	#killerb-home .project-scroll {
+		background: url('../../uploads/2015/03/IMG_0773_crop.jpg') 50% 0 no-repeat fixed;
+		background-size: cover;
+		height: 800px;
+	}
+}
+
 
 .home #header {
 	margin-bottom: 0;
@@ -89,10 +125,36 @@ img {
 }
 
 #click-menu {
-	padding: 10px;
+	padding: 10px !important;
 	left: 0;	
 }
 
 #click-menu .threeLines {
 	float: right;
 }
+
+.page-template-template-home-killer-b-php #responsive-menu .appendLink {
+	border-bottom: none !important;
+	border-left: 1px solid #3C3C3C !important;
+}
+
+/* Home page project grid media queries */
+
+@media only screen and (max-width: 768px) {
+
+	/* Portfolio Grids */
+	.page-template-template-home-killer-b-php #portfolio-squares-full-four .portfolio-square {
+		width: 50%;
+	}
+
+}
+
+@media only screen and (max-width: 600px) {
+
+	/* Portfolio Grids */
+	.page-template-template-home-killer-b-php #portfolio-squares-full-four .portfolio-square {
+		width: 100%;
+	}
+
+}
+

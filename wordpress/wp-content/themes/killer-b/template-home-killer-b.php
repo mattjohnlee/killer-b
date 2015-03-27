@@ -13,17 +13,7 @@ get_header(); ?>
 
 		<article id="killerb-home">
 
-			<?php
-
-				if( wp_is_mobile() ) {
-					$parallax = 'project-scroll-mobile';
-				} else {
-					$parallax = 'project-scroll';
-				}
-
-			?>
-
-			<div class="<?php echo $parallax; ?>">
+			<div class="project-scroll">
 			</div><!-- end .project-scroll -->
 
 		</article><!-- end #post-## -->

@@ -22,7 +22,14 @@
   background: #b5c139; 
 }
 
+#footer {
+	background: #6c6c6c; /* footer background color */
+}
 
+#credits {
+	background: none;
+	border-color: #a1a1a1;
+}
 
 /* change theme's handling of responsive image widths */
 img {
@@ -55,9 +62,21 @@ img {
 	background: #b5c139;
 }
 
+a.button-cta {
+	background: #b5c139;
+}
+
 /* ...and the main nav */
 .main-navigation ul li a:hover, .main-navigation ul li.current-menu-item a, .main-navigation ul li.current-menu-parent a {
 	color: #b5c139;
+}
+
+.main-navigation .sub-menu { /* color drop-down menus */
+	background: #6c6c6c;
+}
+
+.main-navigation .sub-menu li a {
+	border-color: #a1a1a1;
 }
 
 
